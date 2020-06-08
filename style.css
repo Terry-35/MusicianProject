@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Poppons:,300,400,500,600,700&display=swap');
+
+body{
+    margin-top: 0px;
+    font-family: 'Poppins',sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.container{
+    max-width: 1140px; 
+    margin: auto;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    border-bottom: 1px solid #423940;
+    padding: 0px 15px;
+    z-index: 10;
+
+}
+
+header .row{
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .brand-name a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight:1000px ;
+   color: white;
+    text-transform: uppercase;
+    position: relative;
+    
+
+}
+
+
+
+header .navbar ul{
+list-style: none;
+padding: 0px;
+margin: 0px;
+
+
+}
+
+header .navbar ul li{
+    display: inline-block;
+    margin-left: 35px;
+}
+
+header .navbar ul li a{
+font-size: 15px;
+text-decoration: none;
+line-height: 35px;
+color: #ffffff;
+position: relative;
+display: block;
+}
+
+header .navbar ul li a.active::before{
+    content: '';
+    height: 3px;
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: -8px;
+
+}
+
+header .navbar{
+
+}
+
+.home{
+    min-height: 100vh;
+    background-image: url("images/stage.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+}
+
+.home .full-screen{
+    
+    min-height: 100vh;
+
+}
+
+.home .home-content{
+   
+    flex: 0 0 100%;
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.home .home-content .block{
+    
+    flex: 0 0 75%;
+    max-width: 75%;
+    padding-left: 35px;
+    border-left: 5px solid #ffffff;
+    margin-top: 50px;
+}
+
+.home .home-content .block h6{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.home .home-content .block h1{
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: 600;
+    margin: 0;
+    padding:0 10px;
+   
+}
+
+.home .home-content .block h3{
+
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+  
+}
+
+.home .home-content .block .cv-btn {
+    padding-top: 20px;
+}
+
+.home .home-content .block .cv-btn a{
+    border-radius: 4px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 12px 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all .5s ease;
+    background-color: transparent;
+}
+
+.home .home-content .block .cv-btn a:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
