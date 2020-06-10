@@ -66,7 +66,7 @@
         <div class="home-content">
           <div class="block">
           <h6>WELCOME FUN!! </h6>
-          <h1>STEPH KAPELA</h1>
+          <h1>DOUBLE M</h1>
           <h3>HIP-HOP&TRAP</h3>
 
           <div class="cv-btn">
