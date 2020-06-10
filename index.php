@@ -43,7 +43,7 @@
         <div class="container">
             <div class="row">
                 <div class="brand-name">
-                <a href="" class="logo">STEPH KAPELA</a>
+               <!-- <a href="" class="logo">STEPH KAPELA</a>-->
                 </div>
 
                 <div class="navbar">
