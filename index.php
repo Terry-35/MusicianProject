@@ -51,7 +51,7 @@
                         <li><a href="index.php" class="active">HOME</a></li>
                         <li><a href="book.php">BOOK</a></li>
                         <li><a href="">ALBUMS</a></li>
-                        <li><a href="">CHAT</a></li>
+                      
                     </ul>
                 </div>
             </div>
